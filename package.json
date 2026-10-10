@@ -1,0 +1,27 @@
+{
+  "name": "smart-student-attendance-system",
+  "version": "1.0.0",
+  "description": "Smart Student Attendance System - Complete MERN Production Project",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm install && npm run build",
+    "server": "cd backend && npm start",
+    "server:dev": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "attendance",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "jwt",
+    "nodemailer"
+  ],
+  "author": "Smart Attendance Development Team",
+  "license": "MIT"
+}
